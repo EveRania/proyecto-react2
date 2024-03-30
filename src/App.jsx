@@ -21,11 +21,10 @@ function App() {
           <Route path='/cart' element={<h1>Carrito</h1>} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
-        {/* <footer></footer> */}
       </BrowserRouter>
     </ChakraProvider>
   )
 }
 
-// { <ItemListContainer title='Tienda' /> }
+
 export default App

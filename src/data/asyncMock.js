@@ -11,12 +11,12 @@ export const productos = [
 
   {
     id: 2,
-    nombre: "MARQUISE",
-    precio: 24400,
-    categoria: "Tortas",
+    nombre: "ALFAJORCITOS",
+    precio: 11910,
+    categoria: "Alfajores",
     stock: 8,
-    descripcion: "Base de marquise de chocolate + dulce de leche + crema chantillí con topping a elección de: Frutos rojos, chocolates o Mixta (mitad frutos mitad chocolates)",
-    img: "https://pipasteleria.com/wp-content/uploads/2021/05/FD581C3B-607D-484F-8509-77F6C2E72E5A-e1683040847545.jpg"
+    descripcion: "Sabores Elegir hasta 2 sabores por docena: Maicena, Chocolate bañados, Nuez y dulce de leche, Alfacookies",
+    img: "https://pipasteleria.com/wp-content/uploads/2021/05/Alfajorcitos-de-chocolage.jpg"
   },
 
   {
@@ -33,7 +33,7 @@ export const productos = [
     id: 4,
     nombre: "CHOCO OREO",
     precio: 18500,
-    categoria: "Tortas",
+    categoria: "Postres",
     stock: 3,
     descripcion: "Torta deliciosa con base de oreos + relleno de chocotorta y oreos humedas + ganache de chocolate",
     img: "https://pipasteleria.com/wp-content/uploads/2022/05/28FA7290-5BA4-49C4-95C4-CD699A694A11-e1682991370462.jpg"
@@ -43,7 +43,7 @@ export const productos = [
     id: 5,
     nombre: "TARTA DE FRUTILLAS",
     precio: 19500,
-    categoria: "Tartas",
+    categoria: "Tartas dulces",
     stock: 12,
     descripcion: "Base de masa sablee, relleno de dulce de leche, crema chantilly y frutillas frescas.",
     img: "https://pipasteleria.com/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-15-at-12.26.11.jpeg"
