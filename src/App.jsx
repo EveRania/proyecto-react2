@@ -1,7 +1,11 @@
 import { ChakraProvider } from '@chakra-ui/react'
-import NavBar from './components/navBar/NavBar'
+import React from 'react'
+import ItemCount from './components/itemCount/ItemCount'
 import ItemListContainer from './components/itemListContainer/ItemListContainer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import NavBar from './components/navBar/NavBar'
+import ItemDetailContainer from './components/itemDetailContainer/ItemDetailContainer'
+import PageNotFound from './components/pageNotFound/PageNotFound'
 import './App.css'
 
 function App() {
@@ -12,7 +16,10 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' element={<ItemListContainer title='Tienda' />} />
-
+          <Route path='/category/:categoryId' element={<ItemListContainer title='Tienda' />} />
+          <Route path='/product/:productId' element={<ItemDetailContainer />} />
+          <Route path='/cart' element={<h1>Carrito</h1>} />
+          <Route path='*' element={<PageNotFound />} />
         </Routes>
         {/* <footer></footer> */}
       </BrowserRouter>
@@ -20,5 +27,5 @@ function App() {
   )
 }
 
-// {/* <ItemListContainer title='Tienda' /> */}
+// { <ItemListContainer title='Tienda' /> }
 export default App
