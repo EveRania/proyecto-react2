@@ -11,7 +11,7 @@ import './NavBar.css';
 const NavBar = () => {
   return (
     <Box className='nav' p={2}>
-        <Heading ml={3}><Link to='/'>Tienda</Link></Heading>
+        <Heading ml={3}><Link to='/'>Pipasteleria</Link></Heading>
         <Menu>
             <MenuButton as={Button} rightIcon={<TiArrowSortedDown />
     }>
