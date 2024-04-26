@@ -3,7 +3,7 @@
 
 ### Logo
 
-![image](public/vite.svg)
+![image][def]
 <!-- //ahi guardo el logo -->
 
 ---
@@ -11,11 +11,6 @@
 
 ### Descripcion
 Ecommerce realizado en el curso de react.js de Coderhouse
-
----
-
-### muestra de como funciona 
-gif
 
 ---
 
@@ -38,8 +33,7 @@ gif
 
 * Paso 1 - Clonar el respositorio:
     * git clone https://github.com/EveRania/proyecto-react2
-    <!-- agregar link al repo hhtpsgithub/entregafinal o lo q sea -->
-* Paso 2 - Moverse a la carpeta del proyecto :
+    * Paso 2 - Moverse a la carpeta del proyecto :
     * cd nombreDeLaCarpeta
 * Paso 3 - Instalar las dependencias: 
     * npm i 
@@ -47,27 +41,4 @@ gif
     *npm run dev 
 
 
-### Estructura de la tienda:
-
-#### Navbar: 
-* Logo de la tienda
-* Dropdown con las categorias
-* Icono de cart
-
-#### Body
-<!-- * poner como muestra los productos, dejalle del producto,  -->
-
-#### Footer 
-<!-- si es que hay  -->
-
-#### Navegación 
-
-#### Carrito
-
-#### Checkout
-
-
-### Datos de contacto:
-
- link a linkedin
- <!-- etiquetara codery etiquetar al profe, generan interaccion -->
+[def]: src/assets/mele%20logo%20color.png
