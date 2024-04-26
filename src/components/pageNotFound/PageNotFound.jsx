@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../../assets/404.webp'
+import img from '../../assets/404.png'
 import { Image } from '@chakra-ui/react'
 const PageNotFound = () => {
   return (

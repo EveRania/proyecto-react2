@@ -1,0 +1,17 @@
+th {
+    color: rebeccapurple !important;
+}
+
+.iconClearCart {
+    margin-right: 10px;
+}
+
+.continueCartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconContinueCart {
+    margin-left: 10px;
+}

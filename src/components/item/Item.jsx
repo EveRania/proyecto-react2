@@ -1,14 +1,19 @@
 import React from "react";
-import { Card, CardBody, CardFooter, Image, Stack, Text, ButtonGroup, Button, Divider, Heading } from "@chakra-ui/react";
+import { Card, CardBody, CardFooter, Image, Stack, Text, ButtonGroup, Button, Divider, Heading, Center, Flex } from "@chakra-ui/react";
 import { Link } from 'react-router-dom'
+
 const Item = ({ img, nombre, precio, id }) => {
     return (
-        <Card maxW='sm'>
+        <Card maxW='sm' border='3px' borderColor='#243F4D' boxShadow='2xl'>
             <CardBody>
                 <Image
                     src={img}
                     alt={nombre}
-                    borderRadius='lg'
+                    borderRadius='md'
+                    boxSize='100%'
+                    objectFit='cover'
+                    w={'400px'}
+                    h='400px'
                 />
                 <Stack mt='6' spacing='3'>
                     <Heading size='md'>{nombre}</Heading>
@@ -17,25 +22,27 @@ const Item = ({ img, nombre, precio, id }) => {
                     </Text>
                 </Stack>
             </CardBody>
-            <Divider />
+            <Center height='2px' bg={'#243F4D'}>
+            </Center>
+            <Divider color={'#243F4D'} />
             <CardFooter>
-                <ButtonGroup spacing='2'>
-                    <Button variant='solid' colorScheme='blue'>
-                    <Link to={`/product/${id}`}>Ver detalle</Link>
-                    </Button>
-                    
-                </ButtonGroup>
+                <Flex spacing='2' justifyContent={'center'} align={'center'} w={'100%'}>
+                    <ButtonGroup spacing='2'>
+                        <Button variant='solid'
+                            bg={'#243F4D'}
+                            color={'#fff'}
+                            _hover={{ bg: '#3E6478', color: '#fff' }}
+                        >
+                            <Link to={`/product/${id}`}>Ver detalle</Link>
+                        </Button>
+
+                    </ButtonGroup>
+                </Flex>
             </CardFooter>
         </Card>
 
-
-        // <div>
-        //     <p>{nombre}</p>
-        // </div>
     )
 }
 
 export default Item
 
-
-// 22.21

@@ -1,4 +1,4 @@
-import React  from 'react'
+import React, { useEffect, useState }  from 'react'
 
 const useProductData = () => {
     const [ data, setData ] = useState([])
