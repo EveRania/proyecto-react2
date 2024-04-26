@@ -69,3 +69,4 @@ gif
 ### Datos de contacto:
 
  link a linkedin
+ <!-- etiquetara codery etiquetar al profe, generan interaccion -->

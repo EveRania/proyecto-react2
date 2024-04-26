@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import UseProductData from '../../hooks/UseProductData'
+// import useProductData from '../../hooks/UseProductData'
 import ItemList from '../itemList/ItemList';
 import { getProducts, getProductsByCategory } from '../../data/asyncMock';
 import { useParams } from 'react-router-dom';
