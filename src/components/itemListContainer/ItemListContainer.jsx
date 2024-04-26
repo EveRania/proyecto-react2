@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
-// import useProductData from '../../hooks/UseProductData'
+import React, { useEffect, useState } from 'react';
+// import useProductData from '../../hooks/UseProductData';
 import ItemList from '../itemList/ItemList';
-import { getProducts, getProductsByCategory } from '../../data/asyncMock';
 import { useParams } from 'react-router-dom';
-import { addDoc, collection, getDocs, query } from 'firebase/firestore';
-import { Flex, Heading, Spinner } from '@chakra-ui/react'
+import { collection, getDocs, query, where } from 'firebase/firestore';
+import { Flex, Heading, Spinner } from '@chakra-ui/react';
 import { db } from '../../config/firebase';
 
 const ItemListContainer = ({ title }) => {
@@ -12,6 +11,7 @@ const ItemListContainer = ({ title }) => {
   const [loading, setLoading] = useState(true)
   const { categoryId } = useParams()
 
+// const useProductData {};
 
 useEffect(() => {
   setLoading(true)
