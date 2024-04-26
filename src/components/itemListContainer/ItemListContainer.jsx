@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import useProductData from '../../hooks/UseProductData';
 import ItemList from '../itemList/ItemList';
 import { useParams } from 'react-router-dom';
 import { collection, getDocs, query, where } from 'firebase/firestore';
@@ -11,7 +10,6 @@ const ItemListContainer = ({ title }) => {
   const [loading, setLoading] = useState(true)
   const { categoryId } = useParams()
 
-// const useProductData {};
 
 useEffect(() => {
   setLoading(true)

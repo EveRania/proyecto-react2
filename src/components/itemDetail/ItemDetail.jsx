@@ -76,65 +76,6 @@ const ItemDetail = ({categoria, descripcion, img, nombre, precio, id, stock}) =>
         </Card>
   )
 
-
-//         console.log(`Agregaste ${quantity} productos`)
-//         setCantidad(quantity)
-//     }
-
-//   return (
-//         <Card maxW='md' mt={20}>
-//         <CardHeader>
-//             <Flex spacing='4'>
-//             <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
-
-//                 <Box>
-//                 <Heading size='sm'>{nombre}</Heading>
-//                 <Text>Categoría: {categoria}</Text>
-//                 </Box>
-//             </Flex>
-//             <IconButton
-//                 variant='ghost'
-//                 colorScheme='gray'
-//                 aria-label='See menu'
-                
-//             />
-//             </Flex>
-//         </CardHeader>
-//         <CardBody>
-//             <Text>
-//             {descripcion}
-//             </Text>
-//             <Text>
-//             ${precio}
-//             </Text>
-//             <Text>
-//             Stock disponible: {stock}
-//             </Text>
-//         </CardBody>
-//         <Image
-//             objectFit='cover'
-//             src={img}
-//             alt='Chakra UI'
-//         />
-
-//         <CardFooter
-//             justify='space-between'
-//             flexWrap='wrap'
-//             sx={{
-//             '& > button': {
-//                 minW: '136px',
-//             },
-//             }}
-//         >
-
-//         </CardFooter>
-//         {
-//             cantidad > 0 ? 
-//             <Link to='/cart'>Ir al carrito</Link> :
-//             <ItemCount stock={stock} initialValue={1} onAdd={onAdd} />
-//         }
-//         </Card>
-//   )
 }
 
 export default ItemDetail

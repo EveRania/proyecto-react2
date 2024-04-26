@@ -49,7 +49,6 @@ const Checkout = () => {
         }
     }
    
-
     const getOrder = async () => {
         validateEmails()
         if(emailMatch){

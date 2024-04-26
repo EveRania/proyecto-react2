@@ -21,6 +21,7 @@ gif
 
 ### Deploy
 
+[Mele Pasteleria](https://proyecto-react2-blue.vercel.app/) - Deploy en vercel
 
 ---
 

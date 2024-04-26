@@ -1,19 +1,3 @@
-// import { Box } from '@chakra-ui/react';
-// import React from 'react';
-// import { IoIosCart } from "react-icons/io";
-// import { Link } from 'react-router-dom';
-
-// const CartWidget = () => {
-//   return (
-//     <Box mr={3}>
-//       <Link to='/cart'><IoIosCart /></Link>
-
-//     </Box>
-//   )
-// }
-
-// export default CartWidget
-
 import { Box, Flex } from '@chakra-ui/react';
 import React, { useContext } from 'react'
 import { IoCartSharp } from "react-icons/io5";

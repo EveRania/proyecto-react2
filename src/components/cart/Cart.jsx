@@ -50,7 +50,7 @@ const Cart = () => {
                     <Tbody>
                         {
                             cart.map((producto, index) => (
-                                <Tr key={producto.id} bg={index % 2 === 0 ? '#243F4D' : '#fff'} color={index % 2 === 0 ? 'white' : '#243F4D'}>
+                                <Tr key={producto.id} bg={index % 2 === 0 ? '#9c657d' : '#fff'} color={index % 2 === 0 ? 'white' : '#243F4D'}>
                                     <Td>{producto.nombre}</Td>
                                     <Td>{producto.quantity}</Td>
                                     <Td>{producto.precio}</Td>
@@ -72,11 +72,11 @@ const Cart = () => {
                 </Table>
                 <Center>
                     <Flex w={'60%'} justify={'space-around'} align={'center'}>
-                        <Text fontSize={'3xl'} color={'#fff'} w={'15rem'}height={'3rem'}>Total ${getTotal()}</Text>
+                        <Text fontSize={'2xl'} color={'#fff'} w={'15rem'}height={'3rem'}>Total ${getTotal()}</Text>
                             <Button onClick={() => clearCart()} 
                                 w={'15rem'}
                                 height={'3rem'} 
-                                backgroundColor={'#243F4D'} 
+                                backgroundColor={'#9c657d'} 
                                 color={'#fff'} 
                                 fontSize={'xl'}
                                 _hover={{
@@ -91,7 +91,7 @@ const Cart = () => {
                             </Button>
                             <ChakraLink as={RouterLink} to='/checkout' 
                                 fontSize={'2xl'} 
-                                color={'#243F4D'} 
+                                color={'#9c657d'} 
                                 backgroundColor={'#fff'}
                                 height={'3rem'}
                                 borderRadius={'5px'}
@@ -99,7 +99,7 @@ const Cart = () => {
                                 w={'15rem'}
                                 className='continueCartContainer'
                                 _hover={{
-                                    backgroundColor: '#243F4D',
+                                    backgroundColor: '#9c657d',
                                     color: '#fff',
                                 }}
                                 >

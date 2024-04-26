@@ -1,10 +1,12 @@
 h1 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     text-align: center;
+    color: #ab1c5a;
 
 }
 
 a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ab1c5a;
 }

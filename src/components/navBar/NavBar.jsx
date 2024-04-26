@@ -21,14 +21,14 @@ import './NavBar.css';
 const NavBar = () => {
   return (
     <Box className='nav' p={2}>
-        <Heading ml={3} color={'#243F4D'}>
-          <Link to='/'>Pipasteleria</Link>
+        <Heading ml={3} color={'#ab1c5a'}>
+          <Link to='/'>Mele Pasteleria</Link>
           </Heading>
         <Menu>
             <MenuButton as={Button} 
-            bg={'#243F4D'} 
+            bg={'#a93f6d'} 
             color={'#fff'} 
-            _hover={{ bg: '#3E6478', color: '#fff' }}
+            _hover={{ bg: '#9c657d', color: '#fff' }}
             rightIcon={<TiArrowSortedDown />
     }>
                 Categorías

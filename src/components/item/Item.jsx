@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Item = ({ img, nombre, precio, id }) => {
     return (
-        <Card maxW='sm' border='3px' borderColor='#243F4D' boxShadow='2xl'>
+        <Card maxW='sm' border='3px' borderColor='#243F4D#a93f6d' boxShadow='2xl'>
             <CardBody>
                 <Image
                     src={img}
@@ -17,20 +17,20 @@ const Item = ({ img, nombre, precio, id }) => {
                 />
                 <Stack mt='6' spacing='3'>
                     <Heading size='md'>{nombre}</Heading>
-                    <Text color='blue.600' fontSize='2xl'>
+                    <Text color='#a93f6d' fontSize='2xl'>
                         ${precio}
                     </Text>
                 </Stack>
             </CardBody>
-            <Center height='2px' bg={'#243F4D'}>
+            <Center height='2px' bg={'#a93f6d'}>
             </Center>
-            <Divider color={'#243F4D'} />
+            <Divider color={'#a93f6d'} />
             <CardFooter>
                 <Flex spacing='2' justifyContent={'center'} align={'center'} w={'100%'}>
-                    <ButtonGroup spacing='2'>
+                    <ButtonGroup spacing='3'>
                         <Button variant='solid'
-                            bg={'#243F4D'}
-                            color={'#fff'}
+                            bg={'#a93f6d'}
+                            color={'#FAC9B4'}
                             _hover={{ bg: '#3E6478', color: '#fff' }}
                         >
                             <Link to={`/product/${id}`}>Ver detalle</Link>
